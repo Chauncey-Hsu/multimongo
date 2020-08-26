@@ -17,9 +17,6 @@ import static org.springframework.data.mongodb.core.query.Criteria.where;
 @RequestMapping("/hello")
 public class Hello {
 
-//    @Autowired
-//    MongoTemplate mongoTemplate;
-
     @Autowired
     private MultipleMongoConfig multipleMongoConfig;
 
